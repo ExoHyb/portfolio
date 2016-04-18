@@ -6,6 +6,30 @@ body {
   font-family: "Poiret One", Arial, serif;
 }
 
+.style-presentation h2, .style-presentation h4 {
+  color: #2CAFD9;
+}
+.style-presentation h3 {
+  font-family: "Elixia";
+  font-size: 3em;
+  color: #34CEFF;
+}
+.style-presentation h3 #letter-1 {
+  color: #34CEFF;
+}
+.style-presentation h3 #letter-2 {
+  color: #2CAFD9;
+}
+.style-presentation h3 #letter-3 {
+  color: #34CEFF;
+}
+.style-presentation h3 #letter-4 {
+  color: #2CAFD9;
+}
+.style-presentation h3 #letter-5 {
+  color: #34CEFF;
+}
+
 h1 {
   font-family: "Elixia";
   color: #555;
@@ -15,7 +39,7 @@ h1 span {
   margin-right: -10px;
 }
 h1 #letter-1 {
-  color: #91D2D9;
+  color: #34CEFF;
 }
 h1 #letter-2 {
   color: #2CAFD9;
@@ -27,27 +51,6 @@ h1 #letter-4 {
   color: #74EEFF;
 }
 h1 #letter-5 {
-  color: #99DEE5;
-}
-
-#competences {
-  font-family: "Elixia";
-  font-size: 3em;
-}
-
-h3 #letter-1 {
-  color: #91D2D9;
-}
-h3 #letter-2 {
-  color: #2CAFD9;
-}
-h3 #letter-3 {
-  color: #AAF7FF;
-}
-h3 #letter-4 {
-  color: #74EEFF;
-}
-h3 #letter-5 {
   color: #99DEE5;
 }
 
@@ -112,6 +115,7 @@ h3 #letter-5 {
   margin-top: 2em;
   border: 1px solid #DEF4F5;
   border-radius: 3px;
+  color: #555;
 }
 .contact-form .line-1 {
   margin-top: 1.5em;
@@ -127,6 +131,42 @@ h3 #letter-5 {
 }
 .contact-form textarea {
   border-color: #BDE7EA;
+}
+.contact-form h3 {
+  color: #34CEFF;
+}
+
+.achievements h3 {
+  font-family: "Poiret One";
+}
+.achievements h4 {
+  font-size: 2em;
+}
+.achievements a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.achievements #achievements-pro {
+  list-style: none;
+  margin-left: -40px;
+}
+.achievements #achievements-pro a:hover {
+  color: #34CEFF;
+}
+.achievements #achievements-training {
+  list-style: none;
+  margin-left: -40px;
+}
+.achievements #achievements-training a:hover {
+  color: #34CEFF;
+}
+
+.separate-line {
+  border-bottom: 1px solid #DEF4F5;
+  width: 400px;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 footer {

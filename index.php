@@ -15,9 +15,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="style-presentation text-center">
-                        <!-- <div class="image-profil">
-                            <img src="img/profil.jpg" alt="" />
-                        </div> -->
                         <h1>
                             <span id="letter-1">T</span>
                             <span id="letter-2">h</span>
@@ -32,13 +29,13 @@
                             <span id="letter-5">n</span>
                         </h1>
                         <ul class="social">
-                            <li><a id="facebook" href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
-                            <li><a id="twitter" href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
-                            <li><a id="github" href="#"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a></li>
+                            <li><a id="facebook" href="https://www.facebook.com/profile.php?id=100007749282005" onclick="window.open(this.href); return false;"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+                            <li><a id="twitter" href="https://twitter.com/ExoHyb" onclick="window.open(this.href); return false;"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+                            <li><a id="github" href="https://github.com/ExoHyb" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a></li>
                         </ul>
                         <h2>Web Developer Frontend & Backend</h2>
-                        <h4>22 years old - France</h4>
-                        <h3>Skills:</h3>
+                        <div class="separate-line"></div>
+                        <h3>Skills</h3>
                         <h3 id="competences">
                             <span id="letter-1">HTML</span> ~
                             <span id="letter-2">CSS</span> ~
@@ -48,6 +45,25 @@
                             <span id="letter-1">WordPress</span>
                             <!-- IapH8aIF -->
                         </h3>
+                        <div class="separate-line"></div>
+                        <div class="achievements">                	
+	                        <h3>Achievements</h3>
+	                        <h4>Professional</h4>
+	                        <ul id="achievements-pro">
+	                        	<li><a href="#">Code&Wave</a></li>
+	                        </ul>
+	                        <h4>Training</h4>
+	                        <ul id="achievements-training">
+	                        	<li><a href="#">Challenge #1</a></li>
+	                        	<li><a href="#">Challenge #2</a></li>
+	                        	<li><a href="#">Challenge #3</a></li>
+	                        	<li><a href="#">Challenge #4</a></li>
+	                        	<li><a href="#">Challenge #5</a></li>
+	                        	<li><a href="#">Challenge #6</a></li>
+	                        	<li><a href="#">Challenge #7</a></li>
+	                        	<li><a href="#">Challenge #8</a></li>
+	                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +106,7 @@
         </div>
         <footer class="text-center">
             <p>
-                Copyright (c) 2016 Copyright Holder All Rights Reserved.
+                Copyright (c) 2016 Copyright Holder All Rights Reserved <a href="index.php">Théo Martin</a>.
             </p>
         </footer>
     </body>
