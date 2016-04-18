@@ -1,7 +1,7 @@
 <div class="col-md-3 col-md-offset-3">
     <div class="global-display">
         <a href="#">
-            <img src="http://placehold.it/300x300" alt="" />
+            <img src="img/blog.png" alt="" />
             <div class="display-text">
                 <h3 class="display-h3">Example 1</h3>
             </div>

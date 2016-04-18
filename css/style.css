@@ -3,13 +3,52 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Raleway", Arial, serif;
+  font-family: "Poiret One", Arial, serif;
 }
 
 h1 {
-  font-family: "Raleway", Arial, serif;
+  font-family: "Elixia";
   color: #555;
+  font-size: 6em;
+}
+h1 span {
+  margin-right: -10px;
+}
+h1 #letter-1 {
+  color: #91D2D9;
+}
+h1 #letter-2 {
+  color: #2CAFD9;
+}
+h1 #letter-3 {
+  color: #AAF7FF;
+}
+h1 #letter-4 {
+  color: #74EEFF;
+}
+h1 #letter-5 {
+  color: #99DEE5;
+}
+
+#competences {
+  font-family: "Elixia";
   font-size: 3em;
+}
+
+h3 #letter-1 {
+  color: #91D2D9;
+}
+h3 #letter-2 {
+  color: #2CAFD9;
+}
+h3 #letter-3 {
+  color: #AAF7FF;
+}
+h3 #letter-4 {
+  color: #74EEFF;
+}
+h3 #letter-5 {
+  color: #99DEE5;
 }
 
 .global-display {
@@ -37,20 +76,61 @@ h1 {
   -ms-transition: opacity .5s ease-in-out;
 }
 
-#nav-comp {
-  list-style: none;
-  margin-left: -45px;
+.image-profil {
+  margin-top: 10px;
 }
-#nav-comp li {
-  display: inline-block;
-  margin: 0 1em;
+.image-profil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
 }
 
-.skills {
-  width: 350px;
-  margin: auto;
+.social {
   margin-top: 20px;
-  margin-bottom: 20px;
+  list-style: none;
+  margin-left: -40px;
+}
+.social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.social a {
+  color: #C3C3C3;
+}
+.social #facebook:hover {
+  color: #45619D;
+}
+.social #twitter:hover {
+  color: #1DA1F2;
+}
+.social #github:hover {
+  color: #333333;
+}
+
+.contact-form {
+  padding: 1em;
+  margin-top: 2em;
+  border: 1px solid #DEF4F5;
+  border-radius: 3px;
+}
+.contact-form .line-1 {
+  margin-top: 1.5em;
+}
+.contact-form .line-2 {
+  margin-top: 1.5em;
+}
+.contact-form .line-3 {
+  margin-top: 1.5em;
+}
+.contact-form input {
+  border-color: #BDE7EA;
+}
+.contact-form textarea {
+  border-color: #BDE7EA;
+}
+
+footer {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
